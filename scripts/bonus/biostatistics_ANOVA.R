@@ -166,6 +166,7 @@ tagsTbl_treatment.glm_keep <- tagsTbl_treatment$FDR < 0.05
 # create filtered results table of DE genes
 tagsTbl_treatment_filtered <- tagsTbl_treatment[tagsTbl_treatment.glm_keep,]
 
+
 ###
 ## hours
 ###
@@ -211,6 +212,7 @@ tagsTbl_hours.glm_keep <- tagsTbl_hours$FDR < 0.05
 
 # create filtered results table of DE genes
 tagsTbl_hours_filtered <- tagsTbl_hours[tagsTbl_hours.glm_keep,]
+
 
 ###
 ## interaction

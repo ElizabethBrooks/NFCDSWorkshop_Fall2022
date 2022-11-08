@@ -7,6 +7,7 @@
 # set the working directory
 
 
+
 ##
 # Packages
 ##
@@ -23,6 +24,7 @@
 ##
 
 # import gene count data
+
 
 
 ##
@@ -157,6 +159,7 @@
 # create volcano plot
 
 
+
 ###
 ## treat_24h vs cntrl_24h
 ###
@@ -194,6 +197,7 @@
 # create filtered results table of DE genes
 
 
+
 ###
 ## treat_4h vs treat_24h
 ###
@@ -229,6 +233,7 @@
 
 
 # create filtered results table of DE genes
+
 
 
 ###

@@ -171,6 +171,7 @@ ggplot(data=resultsTbl_4h, aes(x=logFC, y=-log10(FDR), color = topDE)) +
   theme_minimal() +
   scale_colour_discrete(type = ghibli_subset, breaks = c("Up", "Down"))
 
+
 ###
 ## treat_24h vs cntrl_24h
 ###
@@ -211,6 +212,7 @@ resultsTbl_24h.keep <- resultsTbl_24h$FDR < 0.05
 # create filtered results table of DE genes
 resultsTbl_24h_filtered <- resultsTbl_24h[resultsTbl_24h.keep,]
 
+
 ###
 ## treat_4h vs treat_24h
 ###
@@ -250,6 +252,7 @@ resultsTbl_treat.keep <- resultsTbl_treat$FDR < 0.05
 
 # create filtered results table of DE genes
 resultsTbl_treat_filtered <- resultsTbl_treat[resultsTbl_treat.keep,]
+
 
 ###
 ## cntrl_4h vs cntrl_24h
