@@ -1,6 +1,8 @@
 # Biostatistical Analysis of Omics Data in the R Programming Language
 
-A common task when working with transcriptomic data is the identification of differentially expressed (DE) genes or tags between groups. In this workshop participants will learn how to perform biostatistical analysis in the R programming language, including pairwise and analysis of variance (ANOVA) like comparisons to identify significantly DE genes. (The analysis described in this workshop is downstream of the instructor's tutorial on Bioinformatics Analysis of Omics Data with the Shell & R, in which she provides a walkthrough of a simple bioinformatics workflow for quantifying transcriptomic data.)
+A common task when working with transcriptomic data is the identification of differentially expressed (DE) genes or tags between groups. In this workshop participants will learn how to perform biostatistical analysis in the R programming language, including pairwise and analysis of variance (ANOVA) like comparisons to identify significantly DE genes.
+
+The analysis described in this workshop is downstream of the instructor's tutorial on [Bioinformatics Analysis of Omics Data with the Shell & R](https://morphoscape.wordpress.com/2022/07/28/bioinformatics-analysis-of-omics-data-with-the-shell-r/), in which a walkthrough is provided of a simple bioinformatics workflow for quantifying transcriptomic data.
 
 ## AFTER COMPLETING THIS WORKSHOP, PARTICIPANTS WILL
 - Be able to replicate the statistical analysis of a published biological data set.
@@ -15,8 +17,8 @@ A common task when working with transcriptomic data is the identification of dif
 - Participants are expected to be comfortable working in the R programming language. 
 
 ## PRIMARY TOOLS USED DURING THE WORKSHOP
-- R software environment
-- RStudio desktop software
+- [R software environment](https://cran.rstudio.com/)
+- [RStudio desktop software](https://libcal.library.nd.edu/event/9797081)
 
 ## RESOURCES
 - [Workshop Guide](https://morphoscape.wordpress.com/2022/08/09/downstream-bioinformatics-analysis-of-omics-data-with-edger/)
