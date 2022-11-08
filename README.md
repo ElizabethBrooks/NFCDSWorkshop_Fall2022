@@ -17,3 +17,6 @@ A common task when working with transcriptomic data is the identification of dif
 ## PRIMARY TOOLS USED DURING THE WORKSHOP:
 - R software environment
 - RStudio desktop software
+
+## Resources
+[Walkthrough Guide](https://morphoscape.wordpress.com/2022/08/09/downstream-bioinformatics-analysis-of-omics-data-with-edger/)
