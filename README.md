@@ -19,7 +19,7 @@ A common task when working with transcriptomic data is the identification of dif
 - RStudio desktop software
 
 ## Resources
-- [The Publication & Data](https://www.sciencedirect.com/science/article/pii/S0147651319302684)
 - [Workshop Guide](https://morphoscape.wordpress.com/2022/08/09/downstream-bioinformatics-analysis-of-omics-data-with-edger/)
+- [The Publication & Data](https://www.sciencedirect.com/science/article/pii/S0147651319302684)
 - [Gene Transcription at Real-Time Speed](https://twitter.com/Innov_Medicine/status/1588155101075603456)
 - [ANOVA Tutorial](https://online.stat.psu.edu/stat500/lesson/10)
