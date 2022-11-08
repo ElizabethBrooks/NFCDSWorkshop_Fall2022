@@ -1,22 +1,31 @@
 #!/usr/bin/env Rscript
 
 ##
+# Working Directory
+##
+
+# set the working directory
+#setwd("/YOUR/PATH/")
+setwd("/Users/bamflappy/Repos/NFCDSWorkshop_Fall2022/")
+
+
+##
 # Packages
 ##
 
 # install packages, if necessary
-if (!require("BiocManager", quietly = TRUE))
-  install.packages("BiocManager")
-BiocManager::install("edgeR")
 install.packages("ggplot2")
 install.packages("ghibli")
 install.packages("ggVennDiagram")
+if (!require("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+BiocManager::install("edgeR")
 
 # import libraries
-library(edgeR)
 library(ggplot2)
 library(ghibli)
 library(ggVennDiagram)
+library(edgeR)
 
 
 ##
