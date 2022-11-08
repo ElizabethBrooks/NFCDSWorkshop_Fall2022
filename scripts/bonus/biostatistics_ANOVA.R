@@ -6,7 +6,7 @@
 
 # set the working directory
 #setwd("/YOUR/PATH/")
-setwd("/Users/bamflappy/Repos/NFCDSWorkshop_Fall2022/")
+setwd("/Users/bamflappy/Repos/NFCDSWorkshop_Fall2022/data")
 
 
 ##
@@ -14,12 +14,12 @@ setwd("/Users/bamflappy/Repos/NFCDSWorkshop_Fall2022/")
 ##
 
 # install packages, if necessary
-install.packages("ggplot2")
-install.packages("ghibli")
-install.packages("ggVennDiagram")
-if (!require("BiocManager", quietly = TRUE))
-  install.packages("BiocManager")
-BiocManager::install("edgeR")
+#install.packages("ggplot2")
+#install.packages("ghibli")
+#install.packages("ggVennDiagram")
+#if (!require("BiocManager", quietly = TRUE))
+#  install.packages("BiocManager")
+#BiocManager::install("edgeR")
 
 # import libraries
 library(ggplot2)
