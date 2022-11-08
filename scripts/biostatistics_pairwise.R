@@ -1,11 +1,6 @@
 #!/usr/bin/env Rscript
 
 ##
-# General Setup
-##
-
-
-##
 # Packages
 ##
 
@@ -22,29 +17,6 @@ library(edgeR)
 library(ggplot2)
 library(ghibli)
 library(ggVennDiagram)
-
-
-##
-# Plotting Palettes
-##
-
-# change the graphical parameters
-par(mfrow=c(9,3))
-
-# view all available ghibli palettes
-for(i in names(ghibli_palettes)) print(ghibli_palette(i))
-
-# close the plot and return the display to the default graphical parameters
-dev.off()
-
-# retrieve the vector of colors associated with PonyoMedium
-ghibli_colors <- ghibli_palette("PonyoMedium", type = "discrete")
-
-# view the selected color palette
-ghibli_colors
-
-# vector with a subset of colors associated with PonyoMedium
-ghibli_subset <- c(ghibli_colors[3], ghibli_colors[6], ghibli_colors[4])
 
 
 ##
@@ -87,6 +59,29 @@ list <- calcNormFactors(list)
 
 # compute counts per million (CPM) using normalized library sizes
 normList <- cpm(list, normalized.lib.sizes=TRUE)
+
+
+##
+# Plotting Palettes
+##
+
+# change the graphical parameters
+par(mfrow=c(9,3))
+
+# view all available ghibli palettes
+for(i in names(ghibli_palettes)) print(ghibli_palette(i))
+
+# close the plot and return the display to the default graphical parameters
+dev.off()
+
+# retrieve the vector of colors associated with PonyoMedium
+ghibli_colors <- ghibli_palette("PonyoMedium", type = "discrete")
+
+# view the selected color palette
+ghibli_colors
+
+# vector with a subset of colors associated with PonyoMedium
+ghibli_subset <- c(ghibli_colors[3], ghibli_colors[6], ghibli_colors[4])
 
 
 ##

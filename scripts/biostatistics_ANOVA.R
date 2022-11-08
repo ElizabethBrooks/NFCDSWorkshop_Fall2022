@@ -1,11 +1,6 @@
 #!/usr/bin/env Rscript
 
 ##
-# General Setup
-##
-
-
-##
 # Packages
 ##
 
@@ -25,34 +20,12 @@ library(ggVennDiagram)
 
 
 ##
-# Plotting Palettes
-##
-
-# change the graphical parameters
-par(mfrow=c(9,3))
-
-# view all available ghibli palettes
-for(i in names(ghibli_palettes)) print(ghibli_palette(i))
-
-# close the plot and return the display to the default graphical parameters
-dev.off()
-
-# retrieve the vector of colors associated with PonyoMedium
-ghibli_colors <- ghibli_palette("PonyoMedium", type = "discrete")
-
-# view the selected color palette
-ghibli_colors
-
-# vector with a subset of colors associated with PonyoMedium
-ghibli_subset <- c(ghibli_colors[3], ghibli_colors[6], ghibli_colors[4])
-
-
-##
 # Data
 ##
 
 # import gene count data
 tribolium_counts <- read.csv("TriboliumCounts.csv", row.names="X")
+
 
 ##
 # GLM Design
@@ -110,6 +83,28 @@ glm_fit <- glmQLFit(glm_list, glm_design, robust=TRUE)
 # plot the QL dispersions
 plotQLDisp(glm_fit)
 
+
+##
+# Plotting Palettes
+##
+
+# change the graphical parameters
+par(mfrow=c(9,3))
+
+# view all available ghibli palettes
+for(i in names(ghibli_palettes)) print(ghibli_palette(i))
+
+# close the plot and return the display to the default graphical parameters
+dev.off()
+
+# retrieve the vector of colors associated with PonyoMedium
+ghibli_colors <- ghibli_palette("PonyoMedium", type = "discrete")
+
+# view the selected color palette
+ghibli_colors
+
+# vector with a subset of colors associated with PonyoMedium
+ghibli_subset <- c(ghibli_colors[3], ghibli_colors[6], ghibli_colors[4])
 
 
 ##
