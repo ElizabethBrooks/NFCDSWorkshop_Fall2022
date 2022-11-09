@@ -22,8 +22,7 @@ The analysis described in this workshop is downstream of the instructor's tutori
 
 ## RESOURCES
 - [Workshop Guide](https://morphoscape.wordpress.com/2022/08/09/downstream-bioinformatics-analysis-of-omics-data-with-edger/)
-- [Publication Data](https://www.sciencedirect.com/science/article/pii/S0147651319302684)
-- [Organism Data](http://v2.insect-genome.com/Organism/768)
+- [Published Biological Data Set](https://www.sciencedirect.com/science/article/pii/S0147651319302684)
 - [Gene Transcription at Real-Time Speed](https://twitter.com/Innov_Medicine/status/1588155101075603456)
 - [Exact or t-Tests Tutorial](https://online.stat.psu.edu/stat555/node/36/)
 - [ANOVA Tutorial](https://online.stat.psu.edu/stat500/lesson/10)
