@@ -28,3 +28,13 @@ The analysis described in this workshop is downstream of the instructor's tutori
 - [Exact or t-Tests Tutorial](https://online.stat.psu.edu/stat555/node/36/)
 - [ANOVA Tutorial](https://online.stat.psu.edu/stat500/lesson/10)
 - [How to Save the Console in RStudio](https://community.rstudio.com/t/how-to-save-the-console-in-r-studio-input-output/8118)
+
+## Pre-Workshop Survey
+* Operating system (OS) survey *
+Please respond in the chat with the appropriate emoji for your OS.
+🍎 Mac
+🍋 Windows
+🍇 Linux
+
+## Post-Workshop Survey
+[Google Form](https://forms.gle/4LgdMZwCLLwGE7879)
