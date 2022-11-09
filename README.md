@@ -4,7 +4,7 @@ A common task when working with transcriptomic data is the identification of dif
 
 The analysis described in this workshop is downstream of the instructor's tutorial on [Bioinformatics Analysis of Omics Data with the Shell & R](https://morphoscape.wordpress.com/2022/07/28/bioinformatics-analysis-of-omics-data-with-the-shell-r/), in which a walkthrough is provided of a simple bioinformatics workflow for quantifying transcriptomic data.
 
-## AFTER COMPLETING THIS WORKSHOP, PARTICIPANTS WILL
+## Learning Goals
 - Be able to replicate the statistical analysis of a published biological data set.
 - Become comfortable working with quantified transcriptomic data.
 - Learn what statistical comparisons are possible with the design of the experiment.
@@ -12,15 +12,15 @@ The analysis described in this workshop is downstream of the instructor's tutori
 - Be able to perform ANOVA like comparisons with edgeR.
 - Discover different types of plots for exploring expression data and analysis results.
 
-## PREREQUISITES
+## Prerequisites
 - This workshop is designed for participants who are unfamiliar with statistical analysis.
 - Participants are expected to be comfortable working in the R programming language. 
 
-## PRIMARY TOOLS USED DURING THE WORKSHOP
+## Primary Tools
 - [R software environment](https://cran.rstudio.com/)
 - [RStudio desktop software](https://libcal.library.nd.edu/event/9797081)
 
-## RESOURCES
+## Resources
 - [Workshop Guide](https://morphoscape.wordpress.com/2022/08/09/downstream-bioinformatics-analysis-of-omics-data-with-edger/)
 - [Published Biological Data Set](https://www.sciencedirect.com/science/article/pii/S0147651319302684)
 - [Gene Transcription at Real-Time Speed](https://twitter.com/Innov_Medicine/status/1588155101075603456)
@@ -29,12 +29,11 @@ The analysis described in this workshop is downstream of the instructor's tutori
 - [ANOVA Tutorial](https://online.stat.psu.edu/stat500/lesson/10)
 - [How to Save the Console in RStudio](https://community.rstudio.com/t/how-to-save-the-console-in-r-studio-input-output/8118)
 
-## Pre-Workshop Survey
-* Operating system (OS) survey *
+## Pre-Workshop Operating system (OS) survey 
 Please respond in the chat with the appropriate emoji for your OS.
-🍎 Mac
-🍋 Windows
-🍇 Linux
+- 🍎 Mac
+- 🍋 Windows
+- 🍇 Linux
 
 ## Post-Workshop Survey
-[Google Form](https://forms.gle/4LgdMZwCLLwGE7879)
+[Post-Workshop Survey Form](https://forms.gle/4LgdMZwCLLwGE7879)
