@@ -30,7 +30,7 @@ The analysis described in this workshop is downstream of the instructor's tutori
 - [How to Save the Console in RStudio](https://community.rstudio.com/t/how-to-save-the-console-in-r-studio-input-output/8118)
 
 ## Pre-Workshop Operating system (OS) survey 
-Please respond in the chat with the appropriate emoji for your OS.
+Please respond in the Zoom chat with the appropriate emoji for your OS.
 - 🍎 Mac
 - 🍋 Windows
 - 🍇 Linux
