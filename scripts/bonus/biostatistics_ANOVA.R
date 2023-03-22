@@ -6,7 +6,7 @@
 
 # set the working directory
 #setwd("/YOUR/PATH/")
-setwd("/Users/bamflappy/Repos/NFCDSWorkshop_Fall2022/data")
+setwd("/Users/bamflappy/Desktop/NFCDSWorkshop_Fall2022-main/data")
 
 
 ##
@@ -17,9 +17,9 @@ setwd("/Users/bamflappy/Repos/NFCDSWorkshop_Fall2022/data")
 #install.packages("ggplot2")
 #install.packages("ghibli")
 #install.packages("ggVennDiagram")
-#if (!require("BiocManager", quietly = TRUE))
-#  install.packages("BiocManager")
-#BiocManager::install("edgeR")
+if (!require("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+BiocManager::install("edgeR")
 
 # import libraries
 library(ggplot2)
@@ -46,7 +46,7 @@ glm_targets <- read.csv(file="groupingFactors_tribolium.csv", row.names="sample"
 # setup a design matrix
 glm_group <- factor(paste(glm_targets$treatment, glm_targets$hours, sep="."))
 
-# create DGE list object
+# begin to construct the DGE list object
 glm_list <- DGEList(counts=tribolium_counts, group=glm_group)
 
 # add the sample names

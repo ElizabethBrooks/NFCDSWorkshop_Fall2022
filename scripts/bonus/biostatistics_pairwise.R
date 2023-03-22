@@ -6,7 +6,7 @@
 
 # set the working directory
 #setwd("/YOUR/PATH/")
-setwd("/Users/bamflappy/Repos/NFCDSWorkshop_Fall2022/data")
+setwd("/Users/bamflappy/Desktop/NFCDSWorkshop_Fall2022-main/data")
 
 
 ##
@@ -42,8 +42,10 @@ tribolium_counts <- read.csv("TriboliumCounts.csv", row.names="X")
 
 # add grouping factor
 group <- factor(c(rep("cntrl_4h",3), rep("treat_4h",3), rep("cntrl_24h",3), rep("treat_24h",3)))
+# why can't we just do the following?
+#group <- factor(colnames(tribolium_counts))
 
-# create DGE list object
+# begin to construct the DGE list object
 list <- DGEList(counts=tribolium_counts,group=group)
 
 
@@ -85,9 +87,6 @@ dev.off()
 
 # retrieve the vector of colors associated with PonyoMedium
 ghibli_colors <- ghibli_palette("PonyoMedium", type = "discrete")
-
-# view the selected color palette
-ghibli_colors
 
 # vector with a subset of colors associated with PonyoMedium
 ghibli_subset <- c(ghibli_colors[3], ghibli_colors[6], ghibli_colors[4])
